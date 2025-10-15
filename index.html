@@ -2,113 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jypiter</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <title>Gold Corporation</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="menu">
-        <ul>
-            <li class="menu_item"><a href="#" class="global">About</a></li>
-            <li class="menu_item"><a href="#" class="global">My team</a></li>
-            <li class="menu_item"><a href="#" class="global">Prices</a></li>
-            <li class="menu_item"><a href="#" class="global">Contacts</a></li>
-        </ul>
+    <header class="menu animated-menu">
+        <nav>
+            <ul>
+                <li class="menu_item"><a href="#about" class="global">About</a></li>
+                <li class="menu_item"><a href="#team" class="global">My team</a></li>
+                <li class="menu_item"><a href="#products" class="global">Products</a></li>
+                <li class="menu_item"><a href="#contacts" class="global">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
-    <section class="main">
-        <h1 class="main_title">Gold Corparation</h1>
-        <p class="main_subtitle">Making money</p>
-        <button class="main_button">Details</button>
-        <p class="main_about">My company is better than everyone's else becuase it has good prices it can fit every work!</p>
-    </section>
-    <section class="about">
-        <h2 class="about_title">About company</h2>
-        <img src="img/gaby-the-gold-fish-aquarium-fish.jpg" alt="Golden fish" class="about_img">
-        <p class="about_text">This company was made ages ago in 1967, me and my friend discovered tons of oil and gas near our house. We bought some machines for that, 
-after all of our hard work we got some oil and gas we sold it and got some money. We made a company named as you all know Gold Corparation, this was
-greatest decision in my life. We made tons of money our company became popular in seconds. Well at start we had problems with some people, but
-we dealt with them very soon. Now our company is doing many things for example getting gold and other minerals. In this year we earned about
-100 000 000$. My team has 100 members, all of them are proffesionals at their work. Currect general director is Paul Dejek.</p>
-    </section>
-    <section class="team">
-        <h2 class="team_title">Team</h2>
-        <div class="team_member">
-            <img src="img/pt.jpg" alt="Roland" class="team_member_img" >
-            <h3 class="team_member_name">Roland</h3>
-            <p class="team_member_role">Manager</p>
-            <p class="team_member_description">Joined team 1 year ago, good at his work, able to do many things, such as programming, etc.</p>
-            <a href="mail0:serega.lefortovo@gmail.com" class="team_member_email">roland123@yandex.ru</a>
-        </div>
-        <div class="team_member">
-            <img src="img/if.jpg" alt="Howard" class="team_member_img" >
-            <h3 class="team_member_name">Howard</h3>
-            <p class="team_member_role">Head Manager</p>
-            <p class="team_member_description">Joined long time ago, known member of our team.</p>
-            <a href="mail0:serega.lefortovo@gmail.com" class="team_member_email">Howard324@mail.ru</a>
-        </div>
-        <div class="team_member">
-            <img src="img/rs.jpg" alt="Derek" class="team_member_img" >
-            <h3 class="team_member_name">Derek</h3>
-            <p class="team_member_role">Specialist</p>
-            <p class="team_member_description">Knows many things, if have any questions ask him.</p>
-            <a href="mail0:serega.lefortovo@gmail.com" class="team_member_email">Derek@gmail.ru</a>
-        </div>
-        <div class="team_member">
-            <img src="img/sl.jpg" alt="Coward" class="team_member_img" >
-            <h3 class="team_member_name">Coward</h3>
-            <p class="team_member_role">Director</p>
-            <p class="team_member_description">Company director, rules everything.</p>
-            <a href="mail0:serega.lefortovo@gmail.com" class="team_member_email">Coward5435@yandex.ru</a>
-        </div>
-    </section>
-    <section class="products">
-        <h2 class="products_title">Products</h2>
-        <div class="products_card">
-            <img src="img/we.jpg" alt="" class="products_img">
-            <h3 class="products_name">Emerald</h3>
-            <p class="products_price">$100 000 carat</p>
-            <button class="products_button">Buy</button>
-        </div>
-        <div class="products_card">
-            <img src="img/qa.jpg" alt="" class="products_img">
-            <h3 class="products_name">Gold</h3>
-            <p class="products_price">36 865$ kg</p>
-            <button class="products_button">Buy</button>
-        </div>
-        <div class="products_card">
-            <img src="img/qae.jpg" alt="" class="products_img">
-            <h3 class="products_name">Diamond</h3>
-            <p class="products_price">18 000$ carat</p>
-            <button class="products_button">Buy</button>
-        </div>
-        <div class="products_card">
-            <img src="img/fe.jpg" alt="" class="products_img">
-            <h3 class="products_name">Oil</h3>
-            <p class="products_price">74$</p>
-            <button class="products_button">Buy</button>
-        </div>
-    </section>
-    <section class="contacts">
-        <h2 class="contacts_title">Contacts</h2>
-        <div class="contacts_text contacts_text_location">New-York</div>
-        <div class="contacts_text contacts_text_phone">phone:<a href="tel:+7 983 654 543" class="contacts_text_phone_link">+7 983 654 543</a></div>
-        <div class="contacts_text contacts_text_email">email:<a href="mailto:crowd@yandex.com" class="contacts_text_email_link">crowd@yandex.com</a></div>
-        <form action="post.py" method="post" class="contacts_form" class="contacts_form_1" >
-            <input type="text" placeholder="Name" class="contacts_form_text" name="name"><br>
-            <input type="email" placeholder="Email" class="contacts_form_text" name="email"><br>
-            <input type="number" placeholder="Phone" class="contacts_form_text" name="phone"><br>
-            <select name="" id="" class="contacts_form_select">
-                <option value="">Moscow</option>
-                <option value="">New-York</option>
-                <option value="">LS</option>
-                <option value="">Paris</option>
-            </select>
-            <button type="submit" class="contacts_form_button">Send</button>
-        </form>
-    </section>
+    <main>
+        <section class="main animated-section">
+            <h1 class="main_title">Gold Corporation</h1>
+            <p class="main_subtitle">Making money in style</p>
+            <button class="main_button" id="detailsBtn">Details</button>
+            <p class="main_about">This company offers competitive prices and world-class service for any project.</p>
+        </section>
+        <section class="about animated-section" id="about">
+            <h2 class="about_title">About Company</h2>
+            <img src="img/gaby-the-gold-fish-aquarium-fish.jpg" alt="Golden fish" class="about_img">
+            <p class="about_text">Gold Corporation was founded in 1967 after a major discovery of oil and gas. Since then, it's grown into a powerhouse in the resources sector, earning millions and employing a dedicated team. The current general director is Paul Dejek.</p>
+        </section>
+        <section class="team animated-section" id="team">
+            <h2 class="team_title">Team</h2>
+            <div class="team_grid">
+                <div class="team_member animated-card">
+                    <img src="img/pt.jpg" alt="Roland" class="team_member_img" >
+                    <h3 class="team_member_name">Roland</h3>
+                    <p class="team_member_role">Manager</p>
+                    <p class="team_member_description">Joined 1 year ago. Skilled in programming, operations, and management.</p>
+                    <a href="mailto:roland123@yandex.ru" class="team_member_email">roland123@yandex.ru</a>
+                </div>
+                <div class="team_member animated-card">
+                    <img src="img/if.jpg" alt="Howard" class="team_member_img" >
+                    <h3 class="team_member_name">Howard</h3>
+                    <p class="team_member_role">Head Manager</p>
+                    <p class="team_member_description">Senior member and key leader of Gold Corporation.</p>
+                    <a href="mailto:Howard324@mail.ru" class="team_member_email">Howard324@mail.ru</a>
+                </div>
+                <div class="team_member animated-card">
+                    <img src="img/rs.jpg" alt="Derek" class="team_member_img" >
+                    <h3 class="team_member_name">Derek</h3>
+                    <p class="team_member_role">Specialist</p>
+                    <p class="team_member_description">Expert problem-solver and internal consultant.</p>
+                    <a href="mailto:Derek@gmail.ru" class="team_member_email">Derek@gmail.ru</a>
+                </div>
+                <div class="team_member animated-card">
+                    <img src="img/sl.jpg" alt="Coward" class="team_member_img" >
+                    <h3 class="team_member_name">Coward</h3>
+                    <p class="team_member_role">Director</p>
+                    <p class="team_member_description">Oversees all operations and company growth.</p>
+                    <a href="mailto:Coward5435@yandex.ru" class="team_member_email">Coward5435@yandex.ru</a>
+                </div>
+            </div>
+        </section>
+        <section class="products animated-section" id="products">
+            <h2 class="products_title">Products</h2>
+            <div class="products_grid">
+                <div class="products_card animated-card">
+                    <img src="img/we.jpg" alt="Emerald" class="products_img">
+                    <h3 class="products_name">Emerald</h3>
+                    <p class="products_price">$100,000 / carat</p>
+                    <button class="products_button">Buy</button>
+                </div>
+                <div class="products_card animated-card">
+                    <img src="img/qa.jpg" alt="Gold" class="products_img">
+                    <h3 class="products_name">Gold</h3>
+                    <p class="products_price">$36,865 / kg</p>
+                    <button class="products_button">Buy</button>
+                </div>
+                <div class="products_card animated-card">
+                    <img src="img/qae.jpg" alt="Diamond" class="products_img">
+                    <h3 class="products_name">Diamond</h3>
+                    <p class="products_price">$18,000 / carat</p>
+                    <button class="products_button">Buy</button>
+                </div>
+                <div class="products_card animated-card">
+                    <img src="img/fe.jpg" alt="Oil" class="products_img">
+                    <h3 class="products_name">Oil</h3>
+                    <p class="products_price">$74 / barrel</p>
+                    <button class="products_button">Buy</button>
+                </div>
+            </div>
+        </section>
+        <section class="contacts animated-section" id="contacts">
+            <h2 class="contacts_title">Contacts</h2>
+            <div class="contacts_info">
+                <div class="contacts_text contacts_text_location">New York</div>
+                <div class="contacts_text contacts_text_phone">phone:<a href="tel:+7983654543" class="contacts_text_phone_link">+7 983 654 543</a></div>
+                <div class="contacts_text contacts_text_email">email:<a href="mailto:crowd@yandex.com" class="contacts_text_email_link">crowd@yandex.com</a></div>
+            </div>
+            <form action="#" method="post" class="contacts_form">
+                <input type="text" placeholder="Name" class="contacts_form_text" name="name"><br>
+                <input type="email" placeholder="Email" class="contacts_form_text" name="email"><br>
+                <input type="number" placeholder="Phone" class="contacts_form_text" name="phone"><br>
+                <select class="contacts_form_select" name="city">
+                    <option value="Moscow">Moscow</option>
+                    <option value="New York" selected>New York</option>
+                    <option value="LS">LS</option>
+                    <option value="Paris">Paris</option>
+                </select>
+                <button type="submit" class="contacts_form_button">Send</button>
+            </form>
+        </section>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
-
-                                    
